@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* AutoVale Brand Colors */
+  --color-orange-50: #fff7ed;
+  --color-orange-100: #ffedd5;
+  --color-orange-200: #fed7aa;
+  --color-orange-300: #fdba74;
+  --color-orange-400: #fb923c;
+  --color-orange-500: #f97316;
+  --color-orange-600: #ea580c;
+  --color-orange-700: #c2410c;
+
+  --color-cream: #faf8f5;
+  --color-cream-dark: #f5f0ea;
+  --color-warm-white: #fefcf9;
+
+  --color-anthracite: #2d2d2d;
+  --color-anthracite-light: #4a4a4a;
+  --color-anthracite-muted: #6b6b6b;
+
+  --color-trust-green: #16a34a;
+  --color-trust-green-light: #dcfce7;
+
+  --color-background: #faf8f5;
+  --color-foreground: #2d2d2d;
+
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+
+  /* Shadows */
+  --shadow-card: 0 1px 3px rgba(0,0,0,0.06), 0 1px 2px rgba(0,0,0,0.04);
+  --shadow-card-hover: 0 10px 25px rgba(0,0,0,0.08), 0 4px 10px rgba(0,0,0,0.04);
+  --shadow-elevated: 0 20px 40px rgba(0,0,0,0.1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-cream);
+  color: var(--color-anthracite);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-cream);
+}
+::-webkit-scrollbar-thumb {
+  background: #d4d0cb;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b0aca7;
+}
+
+/* Focus styles */
+*:focus-visible {
+  outline: 2px solid var(--color-orange-500);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Selection */
+::selection {
+  background-color: var(--color-orange-200);
+  color: var(--color-anthracite);
+}
