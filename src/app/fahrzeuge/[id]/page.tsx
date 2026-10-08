@@ -4,8 +4,8 @@ import { use, useState } from 'react';
 import Link from 'next/link';
 import {
   ArrowLeft, Calendar, Gauge, Zap, Fuel, Settings, Globe, MapPin,
-  ShieldCheck, FileText, User, Phone, Mail, ChevronLeft, ChevronRight,
-  CheckCircle, AlertCircle, Car, Send, Eye, Battery, Download
+  ShieldCheck, FileText, User, ChevronLeft, ChevronRight,
+  CheckCircle, Car, Send, Eye, Battery, Download
 } from 'lucide-react';
 import { mockListings } from '@/data/mock-listings';
 import { formatCHF, formatNumber, formatDate } from '@/lib/utils';

@@ -1,4 +1,4 @@
-import { Users, Shield, Store, User } from 'lucide-react';
+import { Shield, Store, User } from 'lucide-react';
 
 const mockUsers = [
   { id: '1', name: 'Max Müller', email: 'max@example.ch', role: 'seller', created: '15.11.2024' },

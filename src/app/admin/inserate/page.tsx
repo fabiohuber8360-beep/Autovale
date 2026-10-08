@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { Search, Filter, Eye, Edit, Pause, Trash2, Star } from 'lucide-react';
+import { Search, Eye, Edit, Pause, Trash2, Star } from 'lucide-react';
 import { mockListings } from '@/data/mock-listings';
 import { formatCHF, formatNumber, formatDate } from '@/lib/utils';
 import StatusBadge from '@/components/shared/StatusBadge';

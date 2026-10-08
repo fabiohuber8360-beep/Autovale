@@ -1,4 +1,4 @@
-import { CreditCard, CheckCircle, Clock, AlertCircle } from 'lucide-react';
+import { CheckCircle, Clock, AlertCircle } from 'lucide-react';
 import { formatCHF } from '@/lib/utils';
 
 const mockPayments = [

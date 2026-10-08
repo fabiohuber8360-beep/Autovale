@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { CheckCircle, ChevronRight, ChevronLeft, ArrowRight, Upload, X, Eye, ShieldCheck, FileText, Battery, Download } from 'lucide-react';
+import { CheckCircle, ChevronRight, ChevronLeft, ArrowRight, Upload, Eye, ShieldCheck, FileText, Battery } from 'lucide-react';
 import { MAKES, FUEL_TYPES, TRANSMISSIONS, DRIVETRAINS, BODY_TYPES, EXTERIOR_COLORS, MFK_STATUSES, ACCIDENT_STATUSES, EQUIPMENT_CATEGORIES, WIZARD_STEPS } from '@/lib/constants';
 import { cn, formatCHF } from '@/lib/utils';
 import Link from 'next/link';
